@@ -1,0 +1,28 @@
+/* ============================================
+   Dashboard Page Styles
+   ============================================ */
+
+.dashboard-page {
+  max-width: 1200px;
+}
+
+.dashboard-welcome {
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  border: 1px solid var(--gray-200);
+  box-shadow: var(--shadow-sm);
+}
+
+.dashboard-welcome h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-welcome p {
+  color: var(--gray-500);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
