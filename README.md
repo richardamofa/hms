@@ -1,7 +1,7 @@
 # hms
-Login
-Register
-Doctor
-Patient
-Appointments
+Login ||
+Register ||
+Doctor ||
+Patient ||
+Appointments ||
 
