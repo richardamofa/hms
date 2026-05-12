@@ -1,4 +1,5 @@
 import './DataTable.css'
+import { FaPencil, FaDeleteLeft } from 'react-icons/fa6'
 
 interface Column<T> {
   key: string
@@ -52,7 +53,7 @@ const DataTable = <T extends { id: string }>({
                       onClick={() => onEdit(item)}
                       title="Edit"
                     >
-                      ✏️
+                      <FaPencil style={{color: 'orange'}} />
                     </button>
                   )}
                   {onDelete && (
@@ -61,7 +62,7 @@ const DataTable = <T extends { id: string }>({
                       onClick={() => onDelete(item)}
                       title="Delete"
                     >
-                      🗑️
+                      <FaDeleteLeft style={{color: 'red'}} />
                     </button>
                   )}
                 </td>
